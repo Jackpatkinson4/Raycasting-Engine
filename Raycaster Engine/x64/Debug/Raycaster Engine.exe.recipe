@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\dev\Raycaster Engine\x64\Debug\Raycaster Engine.exe</FullPath>
+      <FullPath>C:\dev\Raycasting Engine\x64\Debug\Raycaster Engine.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

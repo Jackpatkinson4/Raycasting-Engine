@@ -3,8 +3,7 @@
 #include <memory>
 #include <vector>
 
-#define TOPDOWN
-#undef TOPDOWN
+//#define TOPDOWN
 
 class Map
 {

@@ -8,14 +8,16 @@ struct PlayerRay
 	Vector2 rayDirection;
 	Vector2 rayHitPos;
 	double rayDistance;
+	int side;
 };
 
-inline PlayerRay createRay(Vector2 rayDir, Vector2 rayPos, double rayDist)
+inline PlayerRay createRay(Vector2 rayDir, Vector2 rayPos, double rayDist, int side)
 {
 	PlayerRay ray;
 	ray.rayDirection = rayDir;
 	ray.rayHitPos = rayPos;
 	ray.rayDistance = rayDist;
+	ray.side = side;
 	return ray;
 }
 
@@ -26,7 +28,7 @@ public:
 	void Draw();
 	void Update(float delta);
 	Vector2 DetectCollisions(Vector2 pos, Vector2 step, Map map);
-	PlayerRay CastRay(Vector2 pos, float angle);
+	PlayerRay CastRay(Vector2 pos, Vector2 dir);
 
 	Vector2 GetPos() const { return m_Pos; }
 	float GetAngle() const { return m_Angle; }
