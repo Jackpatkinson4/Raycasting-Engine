@@ -1,46 +1,13 @@
-﻿  Map.cpp
-C:\dev\Raycasting Engine\Raycaster Engine\src\Map.cpp(55,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  Player.cpp
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(15,25): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(39,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(44,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(46,25): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(46,25): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(48,23): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(48,23): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(51,30): warning C4838: conversion from 'double' to 'unsigned char' requires a narrowing conversion
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(51,30): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(54,22): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(68,17): warning C4305: '-=': truncation from 'double' to 'float'
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(78,17): warning C4305: '+=': truncation from 'double' to 'float'
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(114,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(114,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(119,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(119,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Player.cpp(200,43): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
-  Utils.cpp
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(6,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(7,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(18,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(19,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(24,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(25,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(30,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(31,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(36,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(37,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(65,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(66,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(71,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(72,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(77,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(78,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(83,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(84,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  main.cpp
-  Generating Code...
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(96): warning C4715: 'Utils::MapCollision': not all control paths return a value
-C:\dev\Raycasting Engine\Raycaster Engine\src\Utils.cpp(49): warning C4715: 'Utils::MapCollision': not all control paths return a value
+﻿  Renderer.cpp
+C:\dev\Raycasting Engine\Raycaster Engine\src\Renderer.cpp(52,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\dev\Raycasting Engine\Raycaster Engine\src\Renderer.cpp(54,25): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\dev\Raycasting Engine\Raycaster Engine\src\Renderer.cpp(54,25): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\dev\Raycasting Engine\Raycaster Engine\src\Renderer.cpp(56,23): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\dev\Raycasting Engine\Raycaster Engine\src\Renderer.cpp(56,23): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\dev\Raycasting Engine\Raycaster Engine\src\Renderer.cpp(57,48): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\dev\Raycasting Engine\Raycaster Engine\src\Renderer.cpp(59,30): warning C4838: conversion from 'double' to 'unsigned char' requires a narrowing conversion
+C:\dev\Raycasting Engine\Raycaster Engine\src\Renderer.cpp(59,30): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
+C:\dev\Raycasting Engine\Raycaster Engine\src\Renderer.cpp(62,22): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
   Raycaster Engine.vcxproj -> C:\dev\Raycasting Engine\x64\Debug\Raycaster Engine.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

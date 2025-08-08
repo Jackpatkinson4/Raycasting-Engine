@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-Map::Map(int x, int y, std::vector<int> mapArr) : m_MapX(x), m_MapY(y), m_MapArr(mapArr)
+Map::Map(int x, int y, std::vector<int> mapArr): m_MapX(x), m_MapY(y), m_MapArr(mapArr)
 {
 }
 

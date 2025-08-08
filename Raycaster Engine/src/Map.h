@@ -3,12 +3,11 @@
 #include <memory>
 #include <vector>
 
-//#define TOPDOWN
-
 class Map
 {
 public:
-	Map(int x, int y, std::vector<int> mapArr);
+	Map() { m_MapX = 0; m_MapY = 0; m_MapArr = {}; }
+	Map(int x, int y, std::vector<int> mapArray);
 
 	void Draw2D();
 
@@ -21,7 +20,7 @@ public:
 	int GetValueAtCoord(Vector2 pos);
 private:
 	int m_MapX, m_MapY;
-	int m_CellSize = 64;
+	int m_CellSize = 16;
 	std::vector<int> m_MapArr;
 };
 
